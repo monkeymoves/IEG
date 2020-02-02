@@ -140,7 +140,7 @@ $("#searchName").on("select2-selecting", function(e) {
 
 var margin = {top: 0, right: 10, bottom: 0, left: 170},
     width = 2500 - margin.right - margin.left,
-    height = 750 - margin.top - margin.bottom;
+    height = 800 - margin.top - margin.bottom;
 
 var i = 0,
     duration = 700,
@@ -236,7 +236,7 @@ var texts = nodeEnter.append('g')
       .attr("dy", "3.30em")
       .attr("dx", ".70em")
       .attr("text-anchor", function(d) { return d.children || d._children ? "end" : "start"; })
-      .text(function(d) { return d.name; })
+    //   .text(function(d) { return d.name; })
       .style("fill-opacity", 1e-6);
   
   // title
