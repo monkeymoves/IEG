@@ -9,6 +9,6 @@
 #### colours illustrate the matrix management team structure 
 #### dotted linkages represent the cross organisational links
 #### fully expanded example below 
-<img src="snapshot.jpg"
+<img src="snapshot.JPG"
      alt="D3 expanded tree"
      style="float: left; margin-right: 10px;" />
